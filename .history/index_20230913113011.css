@@ -8,9 +8,8 @@
   padding: 50px 185px 23px 122px;
   min-height: 100vh;
   background: #000;
-  position: relative;
 }
-.container .box {
+.container .box{
   display: flex;
   justify-content: space-between;
 }
@@ -20,32 +19,6 @@
   width: 33px;
   height: 33px;
 }
-
-.container ul li {
-  list-style-type: none;
-  margin-bottom: 25px;
-}
-.container ul li div {
-  display: flex;
-  align-items: center;
-}
-.container ul li img {
-  margin-right: 22px;
-  width: 27px;
-  height: 27px;
-}
-.container ul li p {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 101.385%;
-}
-.container .child {
-  position: absolute;
-  bottom: 41px;
-}
 .container .child p {
   color: #fff;
   font-family: Roboto;
@@ -53,4 +26,27 @@
   font-style: normal;
   font-weight: 400;
   line-height: 101.385%;
+  position: relative;
+  top: 400px;
+}
+.container ul li{
+ list-style-type: ;
+   
+}
+.container ul li img{
+    margin-top: 5px;
+ margin-right:22px;
+    width: 27px;
+height: 27px;
+}
+.container ul li p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; 
+}
+.container ul li div {
+    display: flex;
 }

@@ -44,7 +44,7 @@
 }
 .container .child {
   position: absolute;
-  bottom: 41px;
+bottom: 41px;
 }
 .container .child p {
   color: #fff;
@@ -53,4 +53,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: 101.385%;
+
 }
